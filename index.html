@@ -17,9 +17,14 @@
 </head>
 
 <body>
-    <div class="main">
-        Welcome to this collector website,<br>
-        Here we collect human hand written character dataset,<br>
+    <div class="heading h1">
+        <pre>
+            Character Collector.exe
+        </pre>
+    </div>
+    <div class="container my-3 mx-3 h2">
+        Welcome to the character collector website,<br>
+        Here we collect human hand written character images,<br>
         To help fellow ML enthusiasts train their ML models.
     </div>
     <div class="container my-5">
@@ -54,9 +59,11 @@
                 <option value="z">z | Z</option>
             </select>
     </div>
+    <div class='img-container position-absolute my-3 '>
     Select Image to Upload
-    <p>Upload File: <input type="file" name="filename" /></p>
-    <p><input type="submit" value="Upload" /></p>
+    <p>Upload File: <input class="btn btn-outline-primary" type="file" name="filename" /></p>
+    <p><input class="btn btn-outline-success" type="submit" value="Upload" /></p>
+    </div>
     </form>
 </body>
 
